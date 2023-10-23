@@ -1,0 +1,63 @@
+<!-- İnherit (Miras Alma Olayı)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnherit css</title>
+
+    <style>
+        body {
+            /*body nin rengi bu fakat aşağıdakiler tüm bodyden farklı renkkte. yinede body den miras alıp
+                                    bu özellikleri bünyelerinde barındırıyorlar.*/
+            color: orang;
+            background-color: grey;
+        }
+
+        ul {
+            color: blue;
+        }
+
+        p {
+            /*color yerine renk belirtmeyip inherit yazarsak başta body nin aldığı kapsayıcı rengi(özellik)alır*/
+            color: red;
+        }
+
+        a {
+            color: chartreuse;
+        }
+
+        li {
+            /*inherit olarak siyah oldu (body)*/
+            color: inherit;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium illum iste, recusandae quasi esse!
+    </p>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium illum iste, recusandae quasi esse!
+    </p>
+
+    <a href="#">Link 1</a>
+    <br><br>
+    <a href="$">Link 2</a>
+
+    <ul>
+        <li style="color: aqua;">Madde 1</li> <br> <!-- veya böyle özel olarak vverebiliriz. -->
+        <li style="color: inherit;">Madde 2</li> <br>
+        <li>Madde 3</li> <br>
+    </ul>
+
+
+</body>
+
+</html>

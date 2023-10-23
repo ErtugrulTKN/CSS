@@ -1,0 +1,13 @@
+/* External 1 2 3 Sayfalarındaki barşlıklar ve paragrafların hepsine aynı anda style uygulamak için bu kullanılır. */
+
+h2{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}

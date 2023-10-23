@@ -1,0 +1,60 @@
+/* Pseudo Selectors (Sözde Elemntler*/
+
+/* 
+
+p::first-line{} ilk satır
+after::
+before::
+first-letter::
+placeholder::
+selection::
+
+*/
+
+p::first-line {
+    font-weight: bold;
+    color: brown;
+    word-spacing: 2px;
+}
+
+p::first-letter {
+    font-size: 20px;
+
+}
+
+/* Pseudo Class*/
+/*
+
+:first-child
+:last-child
+:first-of-type
+:last-of-type
+:nth-child
+:nth-of-type()
+:nth-last-child
+:nth-last-of-type()
+:checked
+:empty
+
+*/
+
+ul li {
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+ul li:first-child{
+    color:brown
+    text-align: left;
+    background-color: aqua;
+}
+
+a:visited{
+    color:gray
+
+}
+
+a:hover{
+    color: white;
+    background-color:greenyellow
+}

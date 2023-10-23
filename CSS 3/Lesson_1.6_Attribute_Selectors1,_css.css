@@ -1,0 +1,26 @@
+/*
+h2 {             Bu şekilde bütün h2 başlıklarını kırmızı yaptık.
+    color: red;
+}
+*/
+
+h2[title="Baslık1"] {
+    /* Bu şekilde sadece h2 başlığı renklendi */
+    color: rgb(255, 0, 0);
+}
+
+p[title="Paragraf1"] {
+    color: aliceblue;
+    text-align: justify;
+}
+
+a[target="_blank"] {
+    /* Link i blank olan */
+    color: blueviolet;
+
+}
+
+input[type="text"] {
+    color: black;
+    background-color: aquamarine;
+}

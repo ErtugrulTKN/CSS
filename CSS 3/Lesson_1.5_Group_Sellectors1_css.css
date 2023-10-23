@@ -1,0 +1,21 @@
+/* 
+(p) Tüm P etiketleri
+(div p) div içerisindeki tüm p etiketleri
+(div,p) Tüm div ve Tüm p etiketleri
+(p + div) P etiketlerinden sonra gelen div etiketleri
+*/
+
+
+/* Şeklinde Kullanırız. */
+p {
+    color: rebeccapurple;
+}
+
+div p {
+    color:red;
+}
+
+.container {
+    color: aqua;
+}
+
